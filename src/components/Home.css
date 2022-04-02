@@ -1,0 +1,57 @@
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+.banner-image {
+    width: 18rem;
+    border-radius: 4%;
+}
+.catagory-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
+    gap: 8px;
+}
+.catagory-text {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0 6px -1px gray;   
+}
+.books-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.book-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.book-image {
+    width: 8rem;
+}
+
+/*                              Player Section */
+
+.player-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.bookcard-container{
+    margin: 20px auto 5px auto;
+}
+.player-container {
+    margin: 10px auto;
+}
+.bookcard-image {
+    width: 10rem;
+}
+.bookcard-title {
+    font-size: 1rem;
+    font-weight: 200;
+}
