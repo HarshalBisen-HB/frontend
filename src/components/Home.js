@@ -32,7 +32,7 @@ const Home = ()=>{
     return(
         <section className="home-section">
             
-            <img className={isTimeOut ? "transition-over" : "transition-banner-image"} src="Images/transition.png"></img>
+            <img className={isTimeOut ? "transition-over" : "transition-banner-image"} src="Images/transition.png" alt="transition"></img>
             <Navbar />
             <div className="banner-container">
                 <img className="banner-image" src={"/Images/banner.jpg"} alt="banner" ></img>
@@ -69,7 +69,7 @@ const Home = ()=>{
                 <h3>Intresting Stories</h3>
 
                 <div className="books-container">
-                    {books.stories((i)=>mapBooks(i))}
+                    {stories.map((i)=>mapBooks(i))}
                 </div>
             </div>
             
