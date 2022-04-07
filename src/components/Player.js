@@ -1,5 +1,4 @@
 import React from "react";
-import ReactPlayer from "react-player";
 import { useLocation } from "react-router-dom";
 
 import "./Home.css";
@@ -24,7 +23,9 @@ const Player = ()=>{
         <h1>Player</h1>
             <BookCard />
             <div className="player-container">
-            <ReactPlayer width={"98%"} height={"3rem"} url={"/Music/book"+bookID+".mp3"} controls={true} playing={true} onError={(err)=>{console.log(err);}}/>
+            <audio controls={true}>
+            <source src={"/Music/book"+bookID+".mp3"} type="audio/mpeg" autoPlay={true}></source>
+            </audio>
             </div>
         </section>
         
