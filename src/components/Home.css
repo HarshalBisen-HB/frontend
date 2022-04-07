@@ -46,7 +46,7 @@ h3 {
 .close-btn {
     margin-left: 4px;
     text-decoration: underline;
-    color: purple;
+    color: rgb(255, 170, 128);
     cursor: pointer;
 }
 .menu-container {
@@ -54,25 +54,31 @@ h3 {
 }
 .menu-container-open {
     width: 60%;
-    height: 70%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     position: fixed;
     left: 0;
     top: 50px;
-    background-color: gray;
+    background-color: rgb(255, 170, 128)
+}
+.logo-image {
+    margin-right: 10px;
+    width: 40px;
 }
 .menu-element {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding: 5px;
     margin: 10px;
     text-decoration: none;
+    color: white;
 }
 .logo-container {
-    margin-right: 30px;
+    margin-right: 120px;
+    margin-top: 5px;
 }
 .logo-text {
-    font-family: 'Bangers', cursive;
+    font-family: 'Kalam', cursive;
     letter-spacing: 1px;
     font-weight: 100;
 }
@@ -87,8 +93,16 @@ h3 {
     padding: 18px;
 }
 .banner-image {
-    width: 18rem;
+    width: 19rem;
+    height: 160px;
     border-radius: 4%;
+}
+.catagory-header {
+    margin: 5px 0 20px 0;
+    padding: 4px 0 4px 20px;
+    background-color: rgb(255, 136, 77);
+    color: white;
+    font-weight: 400;
 }
 .catagory-grid {
     margin: 0 10px;
@@ -114,6 +128,15 @@ h3 {
 }
 .book-image {
     width: 8rem;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-image {
+    margin-bottom: 20px;
+    width: 10rem;
 }
 
 /*                              Player Section */

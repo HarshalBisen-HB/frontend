@@ -28,8 +28,9 @@ const Navbar = ()=>{
                 </div>
 
                 <div className="logo-container">
-                    <h1 className="logo-text">Shiv<span>sathi</span></h1>
+                    <h1 className="logo-text">शिव<span>सारथी</span></h1>
                 </div>
+                <img className="logo-image" src="/Images/logo.jpg" alt="shivsarthi"></img>
             </div>
         </nav>
     )
