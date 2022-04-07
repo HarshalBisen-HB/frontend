@@ -20,7 +20,7 @@ const Player = ()=>{
     if(catagory === "stories"){
         data = stories.filter((i)=> i.id === bookID);
     }else if (catagory === "letters"){
-        data = stories.filter((i)=> i.id === bookID);
+        data = letters.filter((i)=> i.id === bookID);
     }else if(catagory === "book"){
         data = books.filter((i)=> i.id === bookID);
     }else {
